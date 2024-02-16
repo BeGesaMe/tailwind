@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Now</title>
+    <link rel="stylesheet" href="css/input.css">
+</head>
+<body>
+
+    <!-- Navbar start -->
+
+    <nav class="flex items-center justify-around w-[80%] mx-auto">
+
+       <a href="./index.html">
+        <h3 class="text-[30px]">FASCO</h3>
+       </a>
+
+        <form action="" class="w-[70%] h-24 mx-auto flex justify-center items-center">
+            <input type="text" placeholder="Nima izlayabsiz.." class="w-[60%] h-[6vh] rounded-tl-xl rounded-bl-xl border pl-3">
+    
+            <button class="border w-[10%] h-[6vh] flex justify-center items-center rounded-tr-xl rounded-br-xl">
+                <img src="./icons/search-alt-1-svgrepo-com.svg" alt="">
+            </button>
+        </form>
+
+
+        <div class="register flex justify-around w-[13%]">
+            <img src="./icons/cart-shopping-svgrepo-com.svg" class="cursor-pointer korzinka">
+            <img src="./icons/love-1489-svgrepo-com.svg" class="cursor-pointer">
+            <img src="./icons/user-alt-1-svgrepo-com.svg" class="cursor-pointer">
+        </div>
+
+    </nav>
+    
+    <!-- Navbar end -->
+
+    <!-- Cards start -->
+
+    <div class="cards-box w-[70%] mx-auto mt-6">
+
+    </div>
+ 
+
+    <!-- Template card start -->
+    <template class="template-card">
+        <div class=" w-full shadow rounded-xl mt-20 mb-6 flex">
+           
+            <img src="https://img.razrisyika.ru/kart/47/1200/187691-cat-13.jpg" class="-img w-[100%] h-[40vh] p-2 object-contain">
+
+            <div class="card-text-part">
+              
+                <p class="category font-thin text-[20px] m-4 mb-0">addasd</p>
+                <h1 class="card-title text-[22px] m-4 font-medium mt-0">asdadad</h1>
+                
+                <div class="ratings flex w-[45%] justify-between ml-4">
+                    <img src="./icons/star-svgrepo-com.svg" alt="">
+                    <img src="./icons/star-svgrepo-com.svg" alt="">
+                    <img src="./icons/star-svgrepo-com.svg" alt="">
+                    <img src="./icons/star-svgrepo-com.svg" alt="">
+                    <img src="./icons/star-svgrepo-com.svg" alt="">
+
+                    <p class="rating">256 Reviews</p>
+
+                </div>
+
+                <p class="description ml-4 mt-4 font-thin ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ducimus aut beatae ullam iusto mollitia nulla, exercitationem dolore saepe rem?</p>
+
+                <div class="card-colors flex items-center ml-4 mt-3 border-b border-[gray] pb-4">
+                    <p class="font-semibold">Color</p>
+                        <div class="colors-box w-24  border-[red] flex items-center justify-around ml-2">
+                            <div class="rounded-full bg-white w-5 h-5 border border-[gray]"></div>
+                            <div class="rounded-full bg-[gray] border border-[gray] w-5 h-5"></div>
+                            <div class="rounded-full bg-[#2d2dba] w-5 h-5"></div>
+                        </div>
+                    <p class="ml-7 text-[18px]">Size</p>
+
+                    <select name="" id="" class="w-16 ml-3 h-10 rounded-lg cursor-pointer bg-[#8080809c]">
+                        <option value="">SM</option>
+                        <option value="">LG</option>
+                        <option value="">MD</option>
+                    </select>
+                </div>
+
+                <div class="card-money-korzinka flex m-4 justify-between items-center">
+                    <h5 class="text-[26px] font-semibold shop-money">$22.3</h5>
+
+                    <div class="flex w-2/5 justify-around">
+                        <button class="w-3/5 rounded-lg text-white p-1 h-[6vh] bg-black addButtun">Add to Cart</button>
+
+                        <img src="./icons/love-1489-svgrepo-com.svg" class="cursor-pointer">
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </template>
+    <!-- Template card end -->
+
+    <!-- Korzinka start -->
+    <div class="korzinka-box w-[80%] h-[80vh] rounded-xl mx-auto absolute top-24 left-36 bg-[gray] overflow-auto hidden ">
+        <h1 class="text-[30px] m-8 text-white font-medium">Korzinka</h1>
+
+        <img src="./icons/close-square-svgrepo-com.svg" class="absolute right-5 top-7 cursor-pointer closer">
+        <div class="w-full rek">
+            <img src="./icons/korzinka.svg" class="block mx-auto mt-24 cursor-pointer">
+            <h3 class="text-center text-[30px] font-medium text-white">Korzinkada Hozircha hech narsa mavjud emas</h3>
+        </div>
+    </div>
+    <!-- Korzinka end -->
+
+
+
+
+
+
+
+    <!-- <script src="app.js"></script> -->
+    <script src="shop.js"></script>
+</body>
+</html>

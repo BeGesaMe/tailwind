@@ -83,10 +83,10 @@ let templateImageCard = document.querySelector('.template-card').content
 let newFragment = new DocumentFragment()
 
 fetch(API_URL).then(r => r.json()).then(data =>{
-    console.log(data);
+    // console.log(data);
 
    data.forEach((el)=>{
-    console.log(el);
+    // console.log(el);
 
     let nodeCloneTemplate = templateImageCard.cloneNode(true);
 
